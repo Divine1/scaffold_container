@@ -1,0 +1,5 @@
+FROM ubuntu_nodejs_yarn:20.04_18.17_1.7.0_v2
+
+RUN apt-get install -y openjdk-8-jdk && \
+    apt-get install -y git
+
